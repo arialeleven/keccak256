@@ -1,13 +1,13 @@
 # keccak256
-keccak256 C implementation.
+keccak256 implementation.
 
-MSVC intrinsic optimization ✅ +10% boost 
+C implementation:
+MSVC intrinsic optimization
 
-GCC optimization soon 💤
+ASM implementation:
+Base NASM version
 
-Clang optimization soon 💤
-
-The function for rounds was manually deployed, which resulted in a two-fold increase in productivity. Deploying the absorption and squeezing did not result in a performance increase. Performance comparison results with other implementations will be added in the future.
+v1.0.1: ASM to C performance ratio = 0.75 : 1
 
 ## License  
 This project is licensed under the **Apache License 2.0**. See [LICENSE](LICENSE) for details.  
